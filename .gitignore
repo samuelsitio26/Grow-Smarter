@@ -47,9 +47,6 @@ npm-debug.log
 yarn-error.log
 package-lock.json
 
-# Tailwind CSS build (if not needed)
-# static/dist/
-
 # Logs
 *.log
 
@@ -67,4 +64,8 @@ instance/
 .webassets-cache
 
 # Specific to this project
-hasil_train_plots/*.png
+hasil_train_plots/
+fly.toml
+Dockerfile
+.dockerignore
+streamlit_app.py
