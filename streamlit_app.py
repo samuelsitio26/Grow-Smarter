@@ -33,6 +33,13 @@ st.markdown("""
         background-color: #f1faee;
         border-left: 5px solid #2d6a4f;
         margin: 1rem 0;
+        color: #1a1a1a;
+    }
+    .result-box h3 {
+        color: #2d6a4f;
+    }
+    .result-box p {
+        color: #333333;
     }
     .metric-box {
         padding: 1rem;
@@ -40,6 +47,10 @@ st.markdown("""
         background-color: #e8f5e9;
         text-align: center;
         margin: 0.5rem 0;
+        color: #1a1a1a;
+    }
+    .metric-box h3, .metric-box h2, .metric-box p {
+        color: #1a1a1a !important;
     }
     </style>
 """, unsafe_allow_html=True)
